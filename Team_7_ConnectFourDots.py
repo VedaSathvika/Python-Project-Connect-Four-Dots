@@ -148,7 +148,7 @@ def homepage():
     cap = cv2.VideoCapture(video_path) # Opens the video file video1.mp4 for playback.
     #Creates the button objects
     start_button = Button(275, 290, "start.jpg", 0.1)
-    guide_button = Button(275, 330, "guide.jpeg", 0.1) 
+    guide_button = Button(275, 330, "guide.jpg", 0.1) 
 
     # Set up the clock for controlling the frame rate
     clock = pygame.time.Clock()
